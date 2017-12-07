@@ -1,0 +1,58 @@
+<!--
+<head>
+<link rel="stylesheet" type="text/css" href="../css/51-modern-default.css">
+<link rel="stylesheet" type="text/css" href="../css/config.css">
+</head>
+-->
+
+
+<div id="subliminal-plugin">
+    <div class="block subliminal-plugin-block">
+    <label class="kintoneplugin-label"><span id ="blank_space_label">Blank space Element</span></label>
+        <div class="kintoneplugin-row">Select a Blank space element from the drop-down.</div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="select_blank_space_element" name="select_blank_space_element">
+                    <option value="">-----</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="block subliminal-plugin-block">
+    <label class="kintoneplugin-label"><span id ="image_url_label">Image URL</span></label>
+        <div class="kintoneplugin-row">Type in the URL of the image to display.</div>
+        <div class="kintoneplugin-input-outer">
+          <input id="input_image_url" class="kintoneplugin-input-text" size="100" type="text" />
+        </div>
+    </div>
+
+
+    <div class="block subliminal-plugin-block">
+    <label class="kintoneplugin-label"><span id ="image_url_label">Subliminal interval</span></label>
+        <div class="kintoneplugin-row">Set the time interval in seconds for the image to repeatedly display</div>
+        <div class="kintoneplugin-input-outer">
+          <input id="input_subliminal_interval" class="kintoneplugin-input-text" size="3" type="text" />
+        </div>
+    </div>
+
+    <div class="block subliminal-plugin-block">
+    <label class="kintoneplugin-label"><span id ="image_url_label">Subliminal display time</span></label>
+        <div class="kintoneplugin-row">Set the time interval in seconds for the image to display</div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="select_displaytime_element" name="select_displaytime_element">
+                    <option value="0.1">0.1</option>
+                    <option value="0.2">0.2</option>
+                    <option value="0.3">0.3</option>
+                    <option value="0.4">0.4</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="block subliminal-plugin-block">
+        <button class="kintoneplugin-button-dialog-ok" id="subliminal-submit" type="button">Save</button>
+        <button class="kintoneplugin-button-dialog-cancel" id="subliminal-cancel" type="button">Cancel</button>
+    </div>
+</div>
