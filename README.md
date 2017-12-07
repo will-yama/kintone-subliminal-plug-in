@@ -1,0 +1,1 @@
+# kintone-subliminal-plug-in
